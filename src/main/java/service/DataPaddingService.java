@@ -11,9 +11,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * Created by xiaoxu on 10/19/16.
- */
 public class DataPaddingService {
     private List<RoomSource> sources = new ArrayList<>();
 
