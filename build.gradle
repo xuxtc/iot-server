@@ -1,0 +1,86 @@
+buildscript {
+    ext {
+        projectName = 'iot-server'
+        springBootVersion = spring_boot_version
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+plugins {
+    id "io.spring.dependency-management" version "0.6.1.RELEASE"
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
+apply plugin: 'application'
+
+
+jar {
+    baseName = projectName
+    version = project_version
+}
+
+jar {
+    baseName = 'gs-messaging-redis'
+    version =  '0.1.0'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+version = '1.0'
+
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-jersey')
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-starter-ws')
+    compile group: 'com.google.code.gson', name: 'gson', version: google_gson_version
+    compile group: 'org.skyscreamer', name: 'jsonassert', version: jsonassert_version
+
+    //redis
+    compile("org.springframework.boot:spring-boot-starter")
+    compile("org.springframework.boot:spring-boot-starter-redis")
+
+    //tools
+    compile group: 'com.google.guava', name: 'guava', version: guava_version
+    compile group: 'joda-time', name: 'joda-time', version: joda_time_version
+
+    //orm
+    compile group: 'org.jooq', name: 'jooq', version: jooq_version
+
+    //swagger api
+    compile group: 'io.springfox', name: 'springfox-swagger2', version: springfox_version
+    compile group: 'io.springfox', name: 'springfox-swagger-ui', version: springfox_version
+
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+
+    // Google Calendar API
+    compile 'com.google.api-client:google-api-client:1.22.0'
+    compile 'com.google.oauth-client:google-oauth-client-jetty:1.22.0'
+    compile 'com.google.apis:google-api-services-calendar:v3-rev214-1.22.0'
+
+}
+
+
+eclipse {
+    classpath {
+        containers.remove('org.eclipse.jdt.launching.JRE_CONTAINER')
+        containers 'org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8'
+    }
+}
+
+springBoot {
+    mainClass = "app.SpringbootApplication"
+}

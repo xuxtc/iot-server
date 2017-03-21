@@ -1,0 +1,1364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes"/>
+    <output-test url="file://$MODULE_DIR$/target/test-classes"/>
+    <content url="file://$MODULE_DIR$/">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true"/>
+      <excludeFolder url="file://$MODULE_DIR$/target"/>
+      <excludeFolder url="file://$MODULE_DIR$/build"/>
+      <excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+    </content>
+    <orderEntry type="inheritedJdk"/>
+    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-spring-boot-starter:2.17.1" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:1.3.5.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:1.3.5.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.3.5.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.3.5.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.1.7" level="project"/>
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.1.7" level="project"/>
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.21" level="project"/>
+    <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.21" level="project"/>
+    <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.21" level="project"/>
+    <orderEntry type="library" name="Maven: org.slf4j:log4j-over-slf4j:1.7.21" level="project"/>
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.16" level="project"/>
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-spring-boot:2.17.1" level="project"/>
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-spring:2.17.1" level="project"/>
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core:2.17.1" level="project"/>
+    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-core:2.2.11" level="project"/>
+    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-impl:2.2.11" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-jersey:1.3.5.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:1.3.5.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.0.33" level="project"/>
+    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:8.0.33" level="project"/>
+    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-logging-juli:8.0.33" level="project"/>
+    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:8.0.33" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-validation:1.3.5.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.hibernate:hibernate-validator:5.2.4.Final" level="project"/>
+    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.3.0.Final" level="project"/>
+    <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.1.0" level="project"/>
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.6.6" level="project"/>
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.6.6" level="project"/>
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.6.6" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:4.2.6.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.2.6.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.2.6.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:4.2.6.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-server:2.22.2" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-common:2.22.2" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.22.2" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:osgi-resource-locator:1.0.1" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-client:2.22.2" level="project"/>
+    <orderEntry type="library" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.media:jersey-media-jaxb:2.22.2" level="project"/>
+    <orderEntry type="library" name="Maven: javax.annotation:javax.annotation-api:1.2" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-api:2.4.0-b34" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-utils:2.4.0-b34" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b34" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.hk2.external:javax.inject:2.4.0-b34" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-locator:2.4.0-b34" level="project"/>
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.18.1-GA" level="project"/>
+    <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.containers:jersey-container-servlet-core:2.22.2" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.containers:jersey-container-servlet:2.22.2" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.ext:jersey-bean-validation:2.22.2" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.ext:jersey-spring3:2.22.2" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2:2.4.0-b34" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:config-types:2.4.0-b34" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-core:2.4.0-b34" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-config:2.4.0-b34" level="project"/>
+    <orderEntry type="library" name="Maven: org.jvnet:tiger-types:1.4" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-runlevel:2.4.0-b34" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:class-model:2.4.0-b34" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.hk2.external:asm-all-repackaged:2.4.0-b34" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:spring-bridge:2.4.0-b34" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.media:jersey-media-json-jackson:2.22.2" level="project"/>
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.ext:jersey-entity-filtering:2.22.2" level="project"/>
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.6.6" level="project"/>
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.6.6" level="project"/>
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.6.6" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:1.3.5.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.2.6.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.2.6.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-ws:1.3.5.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework:spring-jms:4.2.6.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework:spring-messaging:4.2.6.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:4.2.6.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework:spring-oxm:4.2.6.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework.ws:spring-ws-core:2.2.3.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework.ws:spring-xml:2.2.3.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework.ws:spring-ws-support:2.2.3.RELEASE" level="project"/>
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:1.3.5.RELEASE" level="project"/>
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project"/>
+    <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-core:1.10.19" level="project"/>
+    <orderEntry type="library" scope="TEST" name="Maven: org.objenesis:objenesis:2.1" level="project"/>
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project"/>
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-library:1.3" level="project"/>
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:4.2.6.RELEASE" level="project"/>
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:4.2.6.RELEASE" level="project"/>
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.7" level="project"/>
+    <orderEntry type="library" name="Maven: org.skyscreamer:jsonassert:1.3.0" level="project"/>
+    <orderEntry type="library" name="Maven: org.json:json:20140107" level="project"/>
+    <orderEntry type="library" name="Gradle: io.springfox:springfox-swagger2:2.5.0" level="project"/>
+    <orderEntry type="library" name="Gradle: io.springfox:springfox-spring-web:2.5.0" level="project"/>
+    <orderEntry type="library" name="Gradle: io.springfox:springfox-spi:2.5.0" level="project"/>
+    <orderEntry type="library" name="Gradle: io.springfox:springfox-core:2.5.0" level="project"/>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jersey/1.3.5.RELEASE/6b525e4dcc23c1126617038ba09e3b5bc2e9d81/spring-boot-starter-jersey-1.3.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jersey/1.3.5.RELEASE/9df38ac6abc9cbe0e446f425b48ac6b873e6056b/spring-boot-starter-jersey-1.3.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.3.5.RELEASE/1ad40f8edd1b502fb82bfae3a6feb8be3a2b44fa/spring-boot-starter-web-1.3.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.3.5.RELEASE/d7ca7543e79652a458d1e2085b2d13a05163c7a4/spring-boot-starter-web-1.3.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-ws/1.3.5.RELEASE/ffbc744124a448d1f83b302be41fe56bd9df7747/spring-boot-starter-ws-1.3.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-ws/1.3.5.RELEASE/6fb91bf8cc30d1940c4f12a7ac829b7217eb570d/spring-boot-starter-ws-1.3.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/bbb63ca253b483da8ee53a50374593923e3de2e2/gson-2.7-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.3.0/d5c250eb122496866de36dc84f98e2945845ecdd/jsonassert-1.3.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.3.0/aa6d987417de4f968f2deac4254fa341986bb25d/jsonassert-1.3.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9/guava-19.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/91a4d115400e904f22b03a78deb355e9ea803cd4/guava-19.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.4/1c295b462f16702ebe720bbb08f62e1ba80da41b/joda-time-2.9.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.4/53c1bcc94f55a63bed4715f766d5d5f5c411bc33/joda-time-2.9.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.8.4/c40f9794f59b2e54ae11d17f8d487c85bf0b10dd/jooq-3.8.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.8.4/546f56193045a15d4e1f85246631447ce28dcf43/jooq-3.8.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger2/2.5.0/b5f50caa259409ef25930d00c3cd48ba44afb97a/springfox-swagger2-2.5.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger2/2.5.0/1fcee7a8940eed948887a0585488b90ae669f23c/springfox-swagger2-2.5.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.5.0/6f7838c1d208edb5c3de2bce2232969623dac88b/springfox-swagger-ui-2.5.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.5.0/71ecd1f88b4547dcb662771f9fee3f8d9521bca1/springfox-swagger-ui-2.5.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.22.0/244350c0c845c583717ade13f5666a452fd0cfa/google-api-client-1.22.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.22.0/3cc07afd5540c754663e472c88f4b29c9a31f26e/google-api-client-1.22.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-jetty/1.22.0/b94c1e7d6c73cb1c15e2e5569cc6fda08cc80099/google-oauth-client-jetty-1.22.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-jetty/1.22.0/6842dbb1b1cbd82aeb16d6a630790fbe2d6c94ef/google-oauth-client-jetty-1.22.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-calendar/v3-rev214-1.22.0/e58f6d1cb092acc1dc2defa162ea935657467eb8/google-api-services-calendar-v3-rev214-1.22.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-calendar/v3-rev214-1.22.0/2d7475398a03a4a55b58272282beee708379bfd0/google-api-services-calendar-v3-rev214-1.22.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.3.5.RELEASE/188c658fabbce0d1ccc1ae18a1cf58f566208c78/spring-boot-starter-1.3.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.3.5.RELEASE/b07d8c139a4f6be8baf90ba68020e33e19117089/spring-boot-starter-1.3.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.3.5.RELEASE/b4c6277ccec38c51716659886efec073c4b386ea/spring-boot-starter-tomcat-1.3.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.3.5.RELEASE/e672f1de5c6224ae6123f94d13a0b7b47f0cbe3b/spring-boot-starter-tomcat-1.3.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-validation/1.3.5.RELEASE/c83a6cc60a95faace7e03c524d60fc9de1329f57/spring-boot-starter-validation-1.3.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-validation/1.3.5.RELEASE/7a54256e5d24ba29c15acccfe1f695d091701dc2/spring-boot-starter-validation-1.3.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.6.6/5108dde6049374ba980b360e1ecff49847baba4a/jackson-databind-2.6.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.6.6/ca843a8233bdac6e7bb0aeb57473c622b9fdee8b/jackson-databind-2.6.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.6.RELEASE/d5ce949da3f3266f118ed899a153413613b503ad/spring-web-4.2.6.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.6.RELEASE/969d3b628a6b1e2d77bad07669539b27b35ce59a/spring-web-4.2.6.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-server/2.22.2/5ede3e5f98f8b14d31d1d0fffe9908df2bd41c0f/jersey-server-2.22.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-server/2.22.2/d15f39b4320c2dc55dcc949fe328976e3606cbb9/jersey-server-2.22.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet-core/2.22.2/212c534c5b030594ccf5c4b929e8f7cbf26eb1ba/jersey-container-servlet-core-2.22.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet-core/2.22.2/5c2c57e7fe1d3be23c88c9081f28179380ba1300/jersey-container-servlet-core-2.22.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet/2.22.2/d90487b9809f822af7731abb8896a2183e7c4a0c/jersey-container-servlet-2.22.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet/2.22.2/afc49fda68dca9c34bc29ecf3935ea94d22f9f98/jersey-container-servlet-2.22.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-bean-validation/2.22.2/2e4a59b392e86eab26efe41e6d43aa5ae1eefd55/jersey-bean-validation-2.22.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-bean-validation/2.22.2/eccebc2f2d8790b96dfba91a29f070a64f57206/jersey-bean-validation-2.22.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-spring3/2.22.2/d890fe9753d6285a3fb992e24a90066e1b07ab13/jersey-spring3-2.22.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-spring3/2.22.2/d2a99971855c2f04ea21e7309a85c92f48517f6/jersey-spring3-2.22.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-json-jackson/2.22.2/9c17b5f890a38d410c838d05918b5a027346a45f/jersey-media-json-jackson-2.22.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-json-jackson/2.22.2/814eec189d614a2a610145fcb993221a8a6e844e/jersey-media-json-jackson-2.22.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.6.RELEASE/7c7ea475d33287e0e3a92e98ccbe0ad6a0dbb9ca/spring-webmvc-4.2.6.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.6.RELEASE/33f820095e1e3978f58ac47747e13f1f146ef69/spring-webmvc-4.2.6.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jms/4.2.6.RELEASE/9c772a6271ea4c7d6e96b83d8f626d22fa08301/spring-jms-4.2.6.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jms/4.2.6.RELEASE/7f7bcb1e786d30d277a18dfbf2a005a7acfbe33e/spring-jms-4.2.6.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-oxm/4.2.6.RELEASE/3fdc13b31464934372f1b260c274f21491adbff/spring-oxm-4.2.6.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-oxm/4.2.6.RELEASE/eb76c4469f83c870117a62523eab7767d117792b/spring-oxm-4.2.6.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.ws/spring-ws-core/2.2.3.RELEASE/a62850c3d1b9d3892fa480522924f62c0a61303c/spring-ws-core-2.2.3.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.ws/spring-ws-core/2.2.3.RELEASE/e4a4ca6ad789081c0a2eba0dec641794b4a8d760/spring-ws-core-2.2.3.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.ws/spring-ws-support/2.2.3.RELEASE/e1019ef3fd0d90a0e050a1742b1ef84e259d61a3/spring-ws-support-2.2.3.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.ws/spring-ws-support/2.2.3.RELEASE/22c9dd17c986f304970ad301e1c2cf70e98bed58/spring-ws-support-2.2.3.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.json/json/20140107/d1ffca6e2482b002702c6a576166fd685e3370e3/json-20140107.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.json/json/20140107/f53f91bc9c21fef71745450dea5200e423e38370/json-20140107-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.9/598403e3d21da08f8e46efb9f2b6d7b1bc0046d/swagger-annotations-1.5.9.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.9/12a6e044c9cbbd51629578da30c6bc343526ffee/swagger-annotations-1.5.9-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-models/1.5.9/7cc6e2b63619d826f9da4203630ab7add866a473/swagger-models-1.5.9.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-models/1.5.9/7bf0d6703bd21e77d88b3ec38713e472fa396c1c/swagger-models-1.5.9-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-spi/2.5.0/1b439a0b05feee1e1af8ca35c0d35b38096f7601/springfox-spi-2.5.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-spi/2.5.0/c3213ceb37e0a2a8cc9b962e7ad418240c99311/springfox-spi-2.5.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-schema/2.5.0/2716c322aff0cf2684715b6022f1edb7dacb8f67/springfox-schema-2.5.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-schema/2.5.0/4d9b3a18be302d795bd51688bae75ba441fa4d6f/springfox-schema-2.5.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger-common/2.5.0/817f6b5cf4ee5304b762f57ab85d2d1a2ea1f32a/springfox-swagger-common-2.5.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger-common/2.5.0/c43771e9504b3970479706a89bcb67d805704378/springfox-swagger-common-2.5.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-spring-web/2.5.0/88adc4f0c85b06a9f47222ab68c6230a24d08ee0/springfox-spring-web-2.5.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-spring-web/2.5.0/3fb5bafe4e8b004d88e8278b99e2e2fe1eca46b4/springfox-spring-web-2.5.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.1/2ad2fd09dcf5607ca96f8ef432096a96986c40a/classmate-1.3.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.1/9553ee8c29df95f56207662c68a163601b26231e/classmate-1.3.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/139535a69a4239db087de9bab0bee568bf8e0b70/slf4j-api-1.7.21.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/f285ac123f201fb4b028bac556928d7cf527ef48/slf4j-api-1.7.21-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-core/1.2.0.RELEASE/f380e7760032e7d929184f8ad8a33716b75c0657/spring-plugin-core-1.2.0.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-core/1.2.0.RELEASE/112d82259202fa909d51cf7ccefae0c5523f1373/spring-plugin-core-1.2.0.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-metadata/1.2.0.RELEASE/97223fc496b6cab31602eedbd4202aa4fff0d44f/spring-plugin-metadata-1.2.0.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-metadata/1.2.0.RELEASE/6551604dd9c0619bae2f5a244580fa9a0dc646bf/spring-plugin-metadata-1.2.0.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct/1.0.0.Final/794bb2c7d3dd69211deb22857d92fb4c5361be3f/mapstruct-1.0.0.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct/1.0.0.Final/a7a438b4f78e6fce59777acc37f12776d92f884d/mapstruct-1.0.0.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.22.0/1d63f369ac78e4838a3197147012026e791008cb/google-oauth-client-1.22.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.22.0/c6ede026328eec7ca8bbdbf811f412f300566bf2/google-oauth-client-1.22.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.22.0/cc014d64ae11117e159d334c99d9c246d9b36f44/google-http-client-jackson2-1.22.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.22.0/cc16d3c93fe3062e6ae3aa9b0db91e159dd1c36b/google-http-client-jackson2-1.22.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/17.0/463f8378feba44df7ba7cd9272d01837dad62b36/guava-jdk5-17.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/17.0/cc6729ce0bc6cc29441cb3a04acad02aeeebb26e/guava-jdk5-17.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-java6/1.22.0/6cbd19cd33d55bcaac2d842a57f5ade9260bed99/google-oauth-client-java6-1.22.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-java6/1.22.0/a4e7fbfffae692231fbc815b63f3dbf2417e8195/google-oauth-client-java6-1.22.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/jetty/6.1.26/2f546e289fddd5b1fab1d4199fbb6e9ef43ee4b0/jetty-6.1.26.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/jetty/6.1.26/9e275882f6d3400b05674c79e97014a255dfaf43/jetty-6.1.26-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.3.5.RELEASE/b218ba5f3bd01e657fbde9b085722da1fafa4f8a/spring-boot-1.3.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.3.5.RELEASE/d9e9a821b1971aa42875eaec6bafe00b19478c46/spring-boot-1.3.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.3.5.RELEASE/2bcfa86bb3afd95eff5252db6d78f2693b706997/spring-boot-autoconfigure-1.3.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.3.5.RELEASE/75af1389219bde17a527406527c359ad84745ee5/spring-boot-autoconfigure-1.3.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.3.5.RELEASE/a71e1d7fff512b1eadd3426ea1ce5b4cc703c429/spring-boot-starter-logging-1.3.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.3.5.RELEASE/5565a4dd9bff9aad3c0dc83022d7b18bd0f0a25d/spring-boot-starter-logging-1.3.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.6.RELEASE/a1c6ef01f18888f51fc5054c65ef4787b7cf0a1e/spring-core-4.2.6.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.6.RELEASE/41491c9e9c55fe0fcab766d905b9fb87463262ac/spring-core-4.2.6.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.16/d64fb662c9e42789149f5078a62a22edda786c6a/snakeyaml-1.16.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.16/ad03b39efb3749be4c8d2eae23d6dee72c889f3b/snakeyaml-1.16-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.0.33/4e7f547fbb2c364cb5e02a58790c5fb89e31efed/tomcat-embed-core-8.0.33.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.0.33/3ebeb691a03012477d866c6bddc2af027f9ee6a8/tomcat-embed-core-8.0.33-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.0.33/31423f2d493cf1f7cf5f0082c9f94640e93b8c1b/tomcat-embed-el-8.0.33.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.0.33/bdbc88df0d8a611274032a18743b6afc041be3dc/tomcat-embed-el-8.0.33-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-logging-juli/8.0.33/66bc309e0227c1ba2cf4417182d0b1583003d24b/tomcat-embed-logging-juli-8.0.33.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-logging-juli/8.0.33/d99417083ce7a327bc3d90d992ae217e1bbe26ef/tomcat-embed-logging-juli-8.0.33-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.0.33/be1f95e5d9ae00f9bc6138441d29cfe5c7c60256/tomcat-embed-websocket-8.0.33.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.0.33/29a65b0e0656eda186b4eebfe9a3add9a82b5a17/tomcat-embed-websocket-8.0.33-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.4.Final/fb18766b576aa6632bcfe9a20a023cbd52bf9769/hibernate-validator-5.2.4.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.4.Final/b02d7b80cdadbfc51106252238fc1a667c8287eb/hibernate-validator-5.2.4.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.6.6/7ef6440e71531604aa44a5eb62d4b466ffbf7e8f/jackson-annotations-2.6.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.6.6/516029a71ef1b64193a6e389225ca22b72fb0c7/jackson-annotations-2.6.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.6.6/2eb801df67aacaf5b1deb4ac626e1964508e47b/jackson-core-2.6.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.6.6/8ee54db2ad9ea0e244c38d584150b3d524b13d80/jackson-core-2.6.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.6.RELEASE/5efbfccb19efda2956b8977561bf4da6b15b0d0e/spring-aop-4.2.6.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.6.RELEASE/233683d43b9f874461dfef7ba1ae0f5a65575930/spring-aop-4.2.6.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.6.RELEASE/d4a319fb4d949fb6313f45c929947b9b4e26283e/spring-beans-4.2.6.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.6.RELEASE/a0cfb8efd8bd579fc95405782cd0440a514eb6ae/spring-beans-4.2.6.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.6.RELEASE/bbf3c8526fe37bb341507f28db17882d4348dbca/spring-context-4.2.6.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.6.RELEASE/42938681af0f03512b8771cb1f0be49ff7fbfaa4/spring-context-4.2.6.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-common/2.22.2/1209b89878b60ce7d49afadeff7522d2fde0e217/jersey-common-2.22.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-common/2.22.2/3fc5056f92a5796558ac2b973fe23eb579af70c9/jersey-common-2.22.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-client/2.22.2/1712fff037ce5a59e3d67f90fff29222989799ee/jersey-client-2.22.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-client/2.22.2/15af6171149c6c9b89d1a7bfdeb2ae0089efbafb/jersey-client-2.22.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.0.1/104e9c2b5583cfcfeac0402316221648d6d8ea6b/javax.ws.rs-api-2.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.0.1/a20db7429fd8dfff74335ec867472b71c345049b/javax.ws.rs-api-2.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-jaxb/2.22.2/7a9adf97790a92d09a1f2c027dbd34af15ffee04/jersey-media-jaxb-2.22.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-jaxb/2.22.2/7002cfa8200e80c9cdd4893ee402648bc9c973d6/jersey-media-jaxb-2.22.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/ad18a02db08eaee697f812e333f692fc51129e4a/javax.annotation-api-1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-api/2.4.0-b34/1017432e219dbd1d4a1121b2d7e87c5b2f0bcfb9/hk2-api-2.4.0-b34.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-api/2.4.0-b34/97dc4ce8d908a948f35a5ef67e1e1cc1dbe3459b/hk2-api-2.4.0-b34-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/javax.inject/2.4.0-b34/a6a3d4935af7b03e44126b5aac2c2a0ce98fe6e9/javax.inject-2.4.0-b34.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/javax.inject/2.4.0-b34/785c39e9ed81111cf109665d6f635af1ca58fd71/javax.inject-2.4.0-b34-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-locator/2.4.0-b34/1451fc3e5b7f00d7a5ca0feaff2c1bf68be5ac91/hk2-locator-2.4.0-b34.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-locator/2.4.0-b34/668f1f61ed8d42e1dde22d2069b3ae187c58b16e/hk2-locator-2.4.0-b34-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/7d49b53caed9bd81d172807c3e096d24f3c57090/validation-api-1.1.0.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/2.4.0-b34/736b03ef09a6f501b33a3d4c642cc3b2a3a54d66/hk2-2.4.0-b34.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/2.4.0-b34/442181dce6df52e113b2d52d749333f9a6450f75/hk2-2.4.0-b34-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/spring-bridge/2.4.0-b34/4a3de367797146f2c5494c25fb1f41b275c57f67/spring-bridge-2.4.0-b34.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/spring-bridge/2.4.0-b34/cb600c848bc3c45b76a770fcbc73b5f2333df369/spring-bridge-2.4.0-b34-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-entity-filtering/2.22.2/f43019bcf3d791f188b15fe4f0a225a7cca28e11/jersey-entity-filtering-2.22.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-entity-filtering/2.22.2/6707d590e764aac302f1001dd4e4005fd00b196b/jersey-entity-filtering-2.22.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.6.6/2d5b518c1a7b32ebcb8ea23e9ce8618cb0095b40/jackson-jaxrs-base-2.6.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.6.6/6a6616202c5823d8c0252b90deaa59bf2c4b7dea/jackson-jaxrs-base-2.6.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/2.6.6/85f65d18b4c34d8e3d039a7ed49bc84304fbfaf3/jackson-jaxrs-json-provider-2.6.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/2.6.6/92a850396e05c45be9b1c60dc3ea2bcfc793cb8e/jackson-jaxrs-json-provider-2.6.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.2.6.RELEASE/c0182d73f348ab11d51d45cbe29f3820c32d0ccc/spring-expression-4.2.6.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.2.6.RELEASE/9efcfd46c0fc1b134dc4674472b07354898b1d40/spring-expression-4.2.6.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-messaging/4.2.6.RELEASE/f7b3f8f875e055295f6ed2e552187f25b55c6920/spring-messaging-4.2.6.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-messaging/4.2.6.RELEASE/731da3f3bf818b5393bf7b2b994d78088e9524fb/spring-messaging-4.2.6.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.2.6.RELEASE/ba7502c0644414748b1eeb65b4193b05d335a110/spring-tx-4.2.6.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.2.6.RELEASE/fef17193bb0cc68cd6eaca5f16b0711f9b67b2b/spring-tx-4.2.6.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.ws/spring-xml/2.2.3.RELEASE/f82b4eb5fa8c064c63aa9cb6770f9157e088b79b/spring-xml-2.2.3.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.ws/spring-xml/2.2.3.RELEASE/7156ed3d2a59dca52dca11e8419dae6d6c02a7cf/spring-xml-2.2.3.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-core/2.5.0/5b2310cd6b2cf584b81a14edf12e522abc966255/springfox-core-2.5.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-core/2.5.0/60fc98f381dbd6260bd369d7b5f85b2fc93f8151/springfox-core-2.5.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.22.0/d441fc58329c4a4c067acec04ac361627f66ecc8/google-http-client-1.22.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.22.0/354d5dd5f75febe40347abfa2d9517bae6281e73/google-http-client-1.22.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/jetty-util/6.1.26/e5642fe0399814e1687d55a3862aa5a3417226a9/jetty-util-6.1.26.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/jetty-util/6.1.26/ca704dfc9e26567bd69ee3f065a1337fa6d296f/jetty-util-6.1.26-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/servlet-api/2.5-20081211/22bff70037e1e6fa7e6413149489552ee2064702/servlet-api-2.5-20081211.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/servlet-api/2.5-20081211/b0b7c1931bcdbeb25c2aa4aec14d7b979b53dc51/servlet-api-2.5-20081211-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.7/9865cf6994f9ff13fce0bf93f2054ef6c65bb462/logback-classic-1.1.7.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.7/6cfaf5c02fb50bfdf7ea5e563955d3c229d7e154/logback-classic-1.1.7-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.21/331b564a3a42f002a0004b039c1c430da89062cd/jcl-over-slf4j-1.7.21.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.21/c565ca9c1239b38fe4a70e4101086c4e880f6358/jcl-over-slf4j-1.7.21-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.21/2f22c882ffa479d1e9ff4eb0e8e2c29f2a0871ed/jul-to-slf4j-1.7.21.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.21/5f537a1ecb32fe3173a95f3c2c233f35f250faef/jul-to-slf4j-1.7.21-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.21/b3700d97464d99bdcd42c0177d6e7951c94d75ff/log4j-over-slf4j-1.7.21.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.21/7d7494c4241d0dee8bf0680187282d3dc19844e/log4j-over-slf4j-1.7.21-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.0.Final/3616bb87707910296e2c195dc016287080bba5af/jboss-logging-3.3.0.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.0.Final/3625e6818158ddb4754fa2ec51299e5f57e596b4/jboss-logging-3.3.0.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.bundles.repackaged/jersey-guava/2.22.2/7422c693c89640c9685dfa99dbef2da745aa4617/jersey-guava-2.22.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.bundles.repackaged/jersey-guava/2.22.2/8ba7582b60e9cb9e5e2bedb8040434dc87f3db31/jersey-guava-2.22.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/osgi-resource-locator/1.0.1/4ed2b2d4738aed5786cfa64cba5a332779c4c708/osgi-resource-locator-1.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/osgi-resource-locator/1.0.1/b5685f8eaa7d83351b185a82a92abcd1b8b87fc8/osgi-resource-locator-1.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-utils/2.4.0-b34/aacce18411fffef9621d8fc91464ca0477119c38/hk2-utils-2.4.0-b34.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-utils/2.4.0-b34/a7b78d3bcc34b4aad3d63dc6575007d35df5fd88/hk2-utils-2.4.0-b34-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/aopalliance-repackaged/2.4.0-b34/3d5e856dbc91a3a2b0bcb3a3424f8b62421ae4cf/aopalliance-repackaged-2.4.0-b34.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/aopalliance-repackaged/2.4.0-b34/cca0345c03644f636c838444207372f9c56b97b3/aopalliance-repackaged-2.4.0-b34-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.1-GA/d9a09f7732226af26bf99f19e2cffe0ae219db5b/javassist-3.18.1-GA.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.1-GA/d8d089f3a8845cce22d3006e02ab1403dd73b5b6/javassist-3.18.1-GA-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/config-types/2.4.0-b34/d0cd228facafb3f9912f25a1c6605c9738dacce2/config-types-2.4.0-b34.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/config-types/2.4.0-b34/ad15a74eb97f0fc3ca194a03e62387524f751364/config-types-2.4.0-b34-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-core/2.4.0-b34/d530f72aa485ff7d8f59a6c10ad4c396428fe90a/hk2-core-2.4.0-b34.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-core/2.4.0-b34/e1c784070edfdd702fe0a069863441aadd74e052/hk2-core-2.4.0-b34-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-config/2.4.0-b34/c1e9e66e284a777b1b51e19d902db36b0b499bf/hk2-config-2.4.0-b34.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-config/2.4.0-b34/5675af21a30791e6d1e06784a54e6bafa23e8ce/hk2-config-2.4.0-b34-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-runlevel/2.4.0-b34/c77ffbd2bcae37434dcab3624b307a95374500d1/hk2-runlevel-2.4.0-b34.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-runlevel/2.4.0-b34/742a39f7f9a9aa63fab5b270a2cdad82062fd9b4/hk2-runlevel-2.4.0-b34-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/class-model/2.4.0-b34/fdb9192396480cb5a828eb2f21f348600bc40758/class-model-2.4.0-b34.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/class-model/2.4.0-b34/8229fcfed608fc4c8159fdfc7eadbf5b2219cd94/class-model-2.4.0-b34-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.6.6/8916b60b8456302e16f908f25a529cac05455e5a/jackson-module-jaxb-annotations-2.6.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.6.6/b8773294d90ec494f62420e63c15134f9d1f137a/jackson-module-jaxb-annotations-2.6.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/733db77aa8d9b2d68015189df76ab06304406e50/httpclient-4.5.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/b9f9e3e5255b6ddc3bf21be05428c7a60d00e042/httpclient-4.5.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.7/7873092d39ef741575ca91378a6a21c388363ac8/logback-core-1.1.7.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.7/15a62dbee75aadf62b7d35640533262d764b29d3/logback-core-1.1.7-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.jvnet/tiger-types/1.4/9f75db7dea926f497e76eae2cea36eca74ea508/tiger-types-1.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.jvnet/tiger-types/1.4/3ee0fb831e883a546d7e678aa4fa8ffbce8e7d53/tiger-types-1.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/asm-all-repackaged/2.4.0-b34/86ad503fe0d63b04722b0fadebe9e9b57d97ce3/asm-all-repackaged-2.4.0-b34.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/asm-all-repackaged/2.4.0-b34/9629f042568529e44b7b06374ffa423120cf489b/asm-all-repackaged-2.4.0-b34-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/b31526a230871fbe285fbcbe2813f9c0839ae9b0/httpcore-4.4.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/3f15fff45d57656685abfee9e8302bf14580044c/commons-codec-1.9-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.3.5.RELEASE/5c485e918b58741eccc0012c70062df5e5efa106/spring-boot-starter-test-1.3.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.3.5.RELEASE/7327a18630daca0019d91573413b1c10b1443d0a/spring-boot-starter-test-1.3.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/e8546f5bef4e061d8dd73895b4e8f40e3fe6effe/mockito-core-1.10.19.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/8269667b73d9616600359a9b0ba1b1c7d0cf7a97/mockito-core-1.10.19-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/47a7ee46628ab7133129cd7cef1e92657bc275e/hamcrest-library-1.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.2.6.RELEASE/1f869333b3d64f17009a613368165978af575d8c/spring-test-4.2.6.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.2.6.RELEASE/96c167acba2d11cc35c69fcf5d279e6ac08ce336/spring-test-4.2.6.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/xiaoxu/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/611a57d836e2c320d59f9851d4ad587f3c8472e/objenesis-2.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

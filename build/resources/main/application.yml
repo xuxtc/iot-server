@@ -1,0 +1,13 @@
+---
+spring:
+  profiles:
+    active: local
+
+  jackson.serialization.FAIL_ON_EMPTY_BEANS : false
+  jackson.JsonInclude.Include.NON_NULL: true
+
+  #redis数据库名称  从0到15,默认为db0
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
