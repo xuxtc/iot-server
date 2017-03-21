@@ -5,14 +5,16 @@ get/set data from redis for testing redis purely
 
 ### RedisController
 /sensor: set sensor state to redis
+
 /get: get source data from Google calendar and set it into redis
+
 / : get data from redis
 
 ### ScheduledTasks
 auto send 'get' request rhythmically
 
 
-###RequestController
+### RequestController
 for fun..
 
 ## How it works
